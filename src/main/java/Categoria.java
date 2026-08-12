@@ -2,9 +2,13 @@ public class Categoria {
     private int id;
     private String categoria;
 
-    public Categoria(String categoria, int id) {
-        this.categoria = categoria;
+    public Categoria(int id, String categoria) {
         this.id = id;
+        this.categoria = categoria;
+    }
+
+    public Categoria(String categoria) {
+        this.categoria = categoria;
     }
 
     public int getId() {
